@@ -1,0 +1,30 @@
+# Logica de NestJS
+/dist
+/node_modules
+/build
+
+# Frontend
+/frontend/node_modules
+/frontend/dist
+/frontend/.env
+
+# Logs y Temporales
+logs
+*.log
+npm-debug.log*
+.DS_Store
+.temp
+.tmp
+
+# Seguridad (Muy importante)
+.env
+.env.local
+.env.*.local
+
+# IDEs
+/.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
